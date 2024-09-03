@@ -1,2 +1,151 @@
 @charset "UTF-8";
 
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+:root{
+    --cor0:#000000;
+    --cor1:#ffffff;
+    --cor2:rgb(0,0,0,0.25);
+    --font:Arial,helvetica,sans-serif;
+    --font1: Verdana, Geneva, Tahoma, sans-serif;
+}
+/*-----------------Body---------------------*/
+body{
+    max-width: 700px;
+    margin: auto;
+}
+/*---------------Cabeçahlo------------------*/
+
+header{
+    background-color:var(--cor0);
+    font-family:var(--font1);
+    color:var(--cor1);
+    padding: 20px;
+    height: 150px;
+}
+header>h1{
+    text-align:center;
+    font-size: 3em;
+}
+
+header>nav{
+    font-family:var(--font);
+    color: var(--cor1);
+    text-align: center;
+    max-width:50%;
+    padding:10px;
+    margin:auto;
+}
+header>nav>a{
+
+    text-decoration:none;
+    color: var(--cor1);
+    font-size: 1.2em;
+}
+header>nav>span{
+    font-size: 0.8em;
+}
+
+/*-----------------Conteudo-----------------*/
+main{
+    background-color: var(--cor1);
+    font-family: var(--font);
+}
+
+/*---------------Conteudo 1------------------*/
+
+main #seccao1{
+
+    box-shadow: 1px 2px 3px var(--cor0);
+    padding: 50px 20px;
+    line-height:50px;
+    font-size:1.5em;
+}
+
+/*-------------Conteudo 2-------------------*/
+
+main #seccao2{
+    background: var(--cor2) url(../Imagem/ladybug-640.jpg) center bottom no-repeat fixed;
+    background-size:cover;
+    padding: 50px 20px;
+    line-height:50px;
+    font-size:1.5em;
+}
+main #seccao2 #article_seccao2{
+    background-color: var(--cor2);
+    color: var(--cor1);
+    height: 350px;
+    width: 300px;
+    padding:10px;
+}
+
+/*----------Conteudo 3----------------------*/
+
+main #seccao3{
+
+    box-shadow: 1px 2px 3px var(--cor0);
+    padding: 50px 20px;
+    line-height: 50px;
+    font-size: 1.5em;
+
+}
+
+main #seccao3 #article0_seccao3{
+    padding:30px 10px;
+}
+main #seccao3 #article1_seccao{
+    padding: 30px 10px;
+}
+
+/*--------Conteudo 4 -----------------------*/
+
+main #seccao4{
+    background:var(--cor2) url(../Imagem/old-letters-1280.jpg) center center no-repeat fixed;
+    background-size: cover;
+    color: var(--cor1);
+    padding:50px 20px;
+    line-height:50px;
+    font-size:1.5em;
+}
+
+#article_seccao4{
+    background-color: var(--cor2);
+    color: var(--cor1);
+    padding:10px;
+    height:350px;
+    width:300px;
+}
+
+/*--------Conteudo 5 -------------------*/
+
+main #seccao5{
+    box-shadow: 1px 2px 3px var(--cor0);
+    padding: 50px 20px;
+    line-height: 50px;
+    font-size: 1.5em;
+
+}
+main #seccao5 #article0_seccao5{
+    padding: 30px 10px;
+}
+
+main #seccao5 #article1_seccao5{
+    padding: 30px 10px;
+}
+
+/*-----------------Rodapé-------------------*/
+footer{
+    background-color: var(--cor0);
+    font-family: var(--font);
+    color: var(--cor1);
+    text-align: center;
+    font-size: 0.7em;
+    padding: 5px;
+}
+footer>h2>a{
+    text-decoration: none;
+    color: var(--cor1);
+}
