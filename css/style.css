@@ -9,12 +9,12 @@
     --cor0:#000000;
     --cor1:#ffffff;
     --cor2:#00000040;
-    --cor3:#968d8d;
     --font:Arial,helvetica,sans-serif;
     --font1: Verdana, Geneva, Tahoma, sans-serif;
 }
 /*-----------------Body---------------------*/
 body{
+    min-height: 100vh;
     max-width: 700px;
     margin: auto;
 }
@@ -28,6 +28,7 @@ header{
     height: 150px;
 }
 header>h1{
+    font-variant: small-caps;
     text-align:center;
     font-size: 3em;
 }
@@ -45,6 +46,10 @@ header>nav a{
     text-decoration:none;
     color: var(--cor1);
     font-size: 1.5em;
+    font-weight: bold;
+}
+header >nav a:hover{
+    text-decoration: underline;
 }
 header>nav>p{
     font-size: 0.8em;
@@ -62,7 +67,7 @@ main #seccao1{
 
     box-shadow: 1px 2px 3px var(--cor0);
     padding: 50px 20px;
-    line-height:50px;
+    line-height:2em;
     font-size:1.5em;
 }
 
@@ -72,7 +77,7 @@ main #seccao2{
     background: var(--cor2) url(../Imagem/ladybug-640.jpg) center bottom no-repeat fixed;
     background-size:cover;
     padding: 50px 20px;
-    line-height:50px;
+    line-height:2em;
     font-size:1.5em;
 }
 main #seccao2 #article_seccao2{
@@ -89,15 +94,16 @@ main #seccao3{
 
     box-shadow: 1px 2px 3px var(--cor0);
     padding: 50px 20px;
-    line-height: 50px;
+    line-height:2em;
     font-size: 1.5em;
 
 }
 
 main #seccao3 #article0_seccao3{
-    padding:30px 10px;
+    padding: 30px 10px;
 }
-main #seccao3 #article1_seccao{
+
+main #seccao3 #article1_seccao3{
     padding: 30px 10px;
 }
 
@@ -108,7 +114,7 @@ main #seccao4{
     background-size: cover;
     color: var(--cor1);
     padding:50px 20px;
-    line-height:50px;
+    line-height:2em;
     font-size:1.5em;
 }
 
@@ -125,7 +131,7 @@ main #seccao4{
 main #seccao5{
     box-shadow: 1px 2px 3px var(--cor0);
     padding: 50px 20px;
-    line-height: 50px;
+    line-height:2em;
     font-size: 1.5em;
 
 }
@@ -148,5 +154,10 @@ footer{
 }
 footer>p>a{
     text-decoration: none;
-    color: var(--cor3);
+    color: var(--cor1);
+    font-weight: bold;
+
+}
+footer>p>a:hover{
+    text-decoration: underline;
 }
