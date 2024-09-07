@@ -15,7 +15,6 @@
 /*-----------------Body---------------------*/
 body{
     min-height: 100vh;
-    max-width: 700px;
     margin: auto;
 }
 /*---------------Cabeçahlo------------------*/
@@ -24,36 +23,41 @@ header{
     background-color:var(--cor0);
     font-family:var(--font1);
     color:var(--cor1);
-    padding: 20px;
-    height: 150px;
 }
 header>h1{
     font-variant: small-caps;
     text-align:center;
-    font-size: 3em;
+    padding-top:50px;
+    font-size: 6.5vw;
 }
 
 header>nav{
-    font-family:var(--font);
+    font-family:var(--font1);
     color: var(--cor1);
     text-align: center;
     max-width:50%;
     padding:10px;
     margin:auto;
 }
+
+header>nav>p{
+    padding-bottom:50px;
+    font-size: 0.8em;
+
+}
+
 header>nav a{
 
     text-decoration:none;
     color: var(--cor1);
-    font-size: 1.5em;
     font-weight: bold;
+    font-size: 1em;
+
 }
 header >nav a:hover{
     text-decoration: underline;
 }
-header>nav>p{
-    font-size: 0.8em;
-}
+
 
 /*-----------------Conteudo-----------------*/
 main{
@@ -68,7 +72,7 @@ main #seccao1{
     box-shadow: 1px 2px 3px var(--cor0);
     padding: 50px 20px;
     line-height:2em;
-    font-size:1.5em;
+    font-size:1.3em;
 }
 
 /*-------------Conteudo 2-------------------*/
@@ -78,13 +82,12 @@ main #seccao2{
     background-size:cover;
     padding: 50px 20px;
     line-height:2em;
-    font-size:1.5em;
+    font-size:1.3em;
 }
 main #seccao2 #article_seccao2{
     background-color: var(--cor2);
     color: var(--cor1);
-    height: 350px;
-    width: 300px;
+    display: inline-block;
     padding:10px;
 }
 
@@ -94,8 +97,9 @@ main #seccao3{
 
     box-shadow: 1px 2px 3px var(--cor0);
     padding: 50px 20px;
+    font-size: 1.3em;
     line-height:2em;
-    font-size: 1.5em;
+
 
 }
 
@@ -115,15 +119,15 @@ main #seccao4{
     color: var(--cor1);
     padding:50px 20px;
     line-height:2em;
-    font-size:1.5em;
+    font-size:1.3em;
 }
 
 #article_seccao4{
     background-color: var(--cor2);
+    display: inline-block;
     color: var(--cor1);
     padding:10px;
-    height:350px;
-    width:300px;
+
 }
 
 /*--------Conteudo 5 -------------------*/
@@ -131,8 +135,9 @@ main #seccao4{
 main #seccao5{
     box-shadow: 1px 2px 3px var(--cor0);
     padding: 50px 20px;
+    font-size: 1.3em;
     line-height:2em;
-    font-size: 1.5em;
+
 
 }
 main #seccao5 #article0_seccao5{
@@ -146,7 +151,7 @@ main #seccao5 #article1_seccao5{
 /*-----------------Rodapé-------------------*/
 footer{
     background-color: var(--cor0);
-    font-family: var(--font);
+    font-family: var(--font1);
     color: var(--cor1);
     text-align: center;
     font-size: 1em;
