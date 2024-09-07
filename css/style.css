@@ -66,6 +66,7 @@ main{
 main article{
     padding-top: 30px;
     padding-bottom: 30px;
+
 }
 main .formatacao{
     padding: 50px 30px;
@@ -73,11 +74,13 @@ main .formatacao{
     font-size:1.3em;
 }
 main .formatacao1{
+
     padding: 50px 30px;
     line-height:2em;
     font-size:1.3em;
 }
 main .formatacao1 .fundo{
+
     background-color: var(--cor2);
     display: inline-block;
     color: var(--cor1);
